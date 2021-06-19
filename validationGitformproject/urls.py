@@ -19,4 +19,5 @@ from testapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('stu/',views.student_info_view),
+    path("emp/",views.employee_view),
 ]
