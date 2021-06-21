@@ -24,4 +24,5 @@ def employee_view(request):
             print("employee no is",form.cleaned_data['eno'])
             print("employee salary is",form.cleaned_data['salary'])
             print("Employee email is ",form.cleaned_data['gmail'])
+            print("feedback is",form.cleaned_data['feedback'])
     return render(request,'testapp/index.html',{"form":form})
